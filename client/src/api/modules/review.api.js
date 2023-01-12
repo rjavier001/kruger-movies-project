@@ -42,4 +42,4 @@ const reviewApi = {
   }
 }
 
-export default reviewApi
+export default reviewApi;

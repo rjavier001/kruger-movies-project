@@ -14,4 +14,4 @@ const genreApi = {
   }
 }
 
-export default genreApi
+export default genreApi;

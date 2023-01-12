@@ -22,4 +22,4 @@ const personApi = {
   }
 }
 
-export default personApi
+export default personApi;

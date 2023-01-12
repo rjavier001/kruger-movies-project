@@ -34,4 +34,4 @@ const mediaApi = {
   }
 }
 
-export default mediaApi
+export default mediaApi;

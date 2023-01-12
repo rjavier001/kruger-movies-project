@@ -42,4 +42,4 @@ const favoriteApi = {
   }
 }
 
-export default favoriteApi
+export default favoriteApi;

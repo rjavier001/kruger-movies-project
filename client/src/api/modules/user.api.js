@@ -47,6 +47,6 @@ const userApi = {
       return { response };
     } catch (err) { return { err }; }
   }
-};
+}
 
 export default userApi;

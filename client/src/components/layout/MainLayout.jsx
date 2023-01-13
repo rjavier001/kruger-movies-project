@@ -4,9 +4,7 @@ import { Outlet } from "react-router-dom";
 const MainLayout = () => {
 
   return (
-    <>
-      {/* Todo global loading */}      
-      {/* global loading */}
+    <>  
 
       {/* Todo login modal */}      
       {/* login modal */}

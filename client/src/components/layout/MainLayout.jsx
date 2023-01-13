@@ -1,5 +1,6 @@
 import { Box } from "@mui/material";
 import { Outlet } from "react-router-dom";
+import AuthModal from "../common/AuthModal";
 import Footer from "../common/Footer";
 import GlobalLoading from "../common/GlobalLoading";
 import Topbar from "../common/Topbar";
@@ -12,6 +13,7 @@ const MainLayout = () => {
 
       {/* Todo login modal */}      
       {/* login modal */}
+      <AuthModal/>
 
       <Box display="flex" minHeight="100vh">
         {/* Todo header */}  

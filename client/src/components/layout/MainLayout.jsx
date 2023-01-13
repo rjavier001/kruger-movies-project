@@ -4,8 +4,15 @@ import AuthModal from "../common/AuthModal";
 import Footer from "../common/Footer";
 import GlobalLoading from "../common/GlobalLoading";
 import Topbar from "../common/Topbar";
+import { useDispatch, useSelector } from "react-redux";
+import { useEffect } from "react";
+import { toast } from "react-toastify";
+import userApi from "../../api/modules/user.api";
+import favoriteApi from "../../api/modules/favorite.api";
+import { setListFavorites, setUser } from "../../redux/features/userSlice";
 
 const MainLayout = () => {
+  
 
   return (
     <>          

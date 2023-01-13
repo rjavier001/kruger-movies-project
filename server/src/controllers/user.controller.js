@@ -49,7 +49,6 @@ const signin = async (req, res) => {
       process.env.TOKEN_SECRET,
       { expiresIn: "24h" }
     );
-
     user.password = undefined;
     user.salt = undefined;
 

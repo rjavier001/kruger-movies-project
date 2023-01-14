@@ -1,9 +1,9 @@
 import { Box } from "@mui/material";
 import { Outlet } from "react-router-dom";
-import AuthModal from "../common/AuthModal";
 import Footer from "../common/Footer";
 import GlobalLoading from "../common/GlobalLoading";
 import Topbar from "../common/Topbar";
+import AuthModal from "../common/AuthModal";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { toast } from "react-toastify";
@@ -39,18 +39,19 @@ const MainLayout = () => {
     if (!user) dispatch(setListFavorites([]));
   }, [user, dispatch]);
 
-
   return (
-    <>          
-    <GlobalLoading/>
+    <>
+      {/* global loading */}
+      <GlobalLoading />
+      {/* global loading */}
 
-      {/* Todo login modal */}      
       {/* login modal */}
-      <AuthModal/>
+      <AuthModal />
+      {/* login modal */}
 
       <Box display="flex" minHeight="100vh">
-        {/* Todo header */}  
-        <Topbar/>      
+        {/* header */}
+        <Topbar />
         {/* header */}
 
         {/* main */}
@@ -65,8 +66,8 @@ const MainLayout = () => {
         {/* main */}
       </Box>
 
-      {/* Todo footer */}  
-      <Footer/>    
+      {/* footer */}
+      <Footer />
       {/* footer */}
     </>
   );

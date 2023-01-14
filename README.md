@@ -1,4 +1,4 @@
-<img alt="gif" src="https://krugercorp.com/wp-content/uploads/2022/02/Logo-Kruger_headermobil.gif" width="500" height="100"> <hr>
+<img alt="gif" src="https://krugercorp.com/wp-content/uploads/2022/02/Logo-Kruger_headermobil.gif"> <hr>
 <span align="center" style="color:orange">
 
 # Movies Project - Kruger Start

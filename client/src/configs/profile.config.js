@@ -23,15 +23,15 @@ const profile = [
     mail:"rjavier001@gmail.com"
   },
   {
-    name: "Jonatan Sanchez",
-    skills:"React Js || Node js || .Net",
+    name: "Jonathan Jesús Sanchez Lucas",
+    skills:"React Js || Java || .Net",
     description:
-    "Committed, honest, responsible, trained professional, capable of solving the analysis, planning, design and control of electronic systems. Development of ERP systems, CRM, Web Servers, design and implementation of data storage.",
-    img: "",
+    "Student looking for the opportunity to find an experience in a work environment, where I can learn new technologies and gain experience. What's the worst that could happen?",
+    img: "https://avatars.githubusercontent.com/u/80604082?v=4",
     avatarLetter:"JS",
-    urlLinkedIn: "",
-    git:"",
-    mail:""
+    urlLinkedIn: "https://www.linkedin.com/in/jsnchezlucas/",
+    git:"https://github.com/jonato96?tab=repositories",
+    mail:"jsanchezlucas@outlook.com"
   },
 ];
 

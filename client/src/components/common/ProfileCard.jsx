@@ -21,16 +21,12 @@ const ProfileCard = ({ name, description, skills, img, avatarLetter,urlLinkedIn,
             {avatarLetter}
           </Avatar>
         }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
+       
         title={name}
         subheader={skills}
       />
       <CardMedia
-        component="img"
+        component="img"        
         height="194"
         width="200"
         image={img}
@@ -43,13 +39,13 @@ const ProfileCard = ({ name, description, skills, img, avatarLetter,urlLinkedIn,
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <Link href={urlLinkedIn}>
+        <Link href={urlLinkedIn} target="_blank">
           <IconButton aria-label="LinkedIn">
             <LinkedInIcon />
           </IconButton>
         </Link>
 
-        <Link href={git}>
+        <Link href={git} target="_blank">
           <IconButton aria-label="GitHub">
             <GitHubIcon />
           </IconButton>

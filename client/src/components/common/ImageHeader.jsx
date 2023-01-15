@@ -5,7 +5,7 @@ const ImageHeader = ({ imgPath }) => {
   const theme = useTheme();
 
   return (
-    <Box sx={{
+    <Box title='image-header' sx={{
       zIndex: "-1",
       position: "relative",
       paddingTop: { xs: "60%", sm: "40%", md: "35%" },

@@ -5,7 +5,7 @@ import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlin
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import RateReviewOutlinedIcon from "@mui/icons-material/RateReviewOutlined";
 import LockResetOutlinedIcon from "@mui/icons-material/LockResetOutlined";
-// import ContactsIcon from "@mui/icons-material/Contacts";
+import ContactsIcon from "@mui/icons-material/Contacts";
 
 const main = [
   {
@@ -26,12 +26,12 @@ const main = [
     icon: <LiveTvOutlinedIcon />,
     state: "tv",
   },
-  // {
-  //   display: "form",
-  //   path: "/form",
-  //   icon: <ContactsIcon />,
-  //   state: "form",
-  // },
+  {
+    display: "form",
+    path: "/form",
+    icon: <ContactsIcon />,
+    state: "form",
+  },
   {
     display: "search",
     path: "/search",

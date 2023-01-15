@@ -7,7 +7,7 @@ import MediaSearch from "../pages/MediaSearch";
 import PasswordUpdate from "../pages/PasswordUpdate";
 import ReviewList from "../pages/ReviewList";
 import ProtectedPage from "../components/common/ProtectedPage";
-// import Form from "../pages/Form";
+ import Form from "../pages/Form";
 
 export const routesGen = {
   home: "/",
@@ -31,11 +31,11 @@ const routes = [
     element: <PersonDetail />,
     state: "person.detail"
   },
-  // {
-  //   path: "/form",
-  //   element: <Form />,
-  //   state: "form"
-  // },
+  {
+    path: "/form",
+    element: <Form />,
+    state: "form"
+  },
   {
     path: "/search",
     element: <MediaSearch />,

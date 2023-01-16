@@ -3,7 +3,7 @@ import Img1 from "../assets/bryan.jpg";
 const profile = [
   {
     name: "Bryan Sanchez",
-    skills: "React Js || Node js || Java || Spring Framework",
+    skills: "React Js || Java || Spring Framework",
     description:
       "Passionate about the IT world, committed person with a great capacity for learning. Willing to take on challenges. Thanks to these skills and my motivation I will be able to achieve the best possible results in your company.",
     img: Img1,

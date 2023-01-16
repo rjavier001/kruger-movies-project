@@ -108,7 +108,7 @@ Give a ⭐️ if you liked this project.
 
 ## :shipit: FAQ
 
-1. ¿What is Kruger Start?<br>
+1. ¿What is Kruger Star?<br>
    A unique accelerated learning process, in which you will master the most important and modern technologies for software developers. Created by the company Kruger Corp.
    More information in : https://ktalks.krugercorp.com/es/kruger-star-2022
 

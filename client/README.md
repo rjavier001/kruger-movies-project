@@ -1,1 +1,0 @@
-# Getting Started with Movie React App

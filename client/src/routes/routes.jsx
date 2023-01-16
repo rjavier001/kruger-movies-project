@@ -8,6 +8,7 @@ import PasswordUpdate from "../pages/PasswordUpdate";
 import ReviewList from "../pages/ReviewList";
 import ProtectedPage from "../components/common/ProtectedPage";
 import AboutUsPage from "../pages/AboutUsPage";
+import Form from "../pages/Form";
 
 export const routesGen = {
   home: "/",
@@ -35,6 +36,11 @@ const routes = [
     path: "/person/:personId",
     element: <PersonDetail />,
     state: "person.detail"
+  },
+  {
+    path: "/form",
+    element: <Form />,
+    state: "form"
   },
   {
     path: "/search",

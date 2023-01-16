@@ -91,7 +91,7 @@ To run the application tests, use the following command
 ## :anger: Authors
 
 - [Javier Vallejo - @rjavier001](https://github.com/rjavier001) :octocat:
-- [Jonathan Sánchez - @user](https://github.com/rjavier001) :octocat:
+- [Jonathan Sánchez - @jonato96](https://github.com/jonato96) :octocat:
 - [Bryan Sánchez - @Bryan-ITSQMET](https://github.com/Bryan-ITSQMET) :octocat:
 
 ## :call_me_hand: Acknowledgment

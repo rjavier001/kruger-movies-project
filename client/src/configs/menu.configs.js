@@ -28,12 +28,6 @@ const main = [
     state: "tv",
   },
   {
-    display: "form",
-    path: "/form",
-    icon: <ContactsIcon />,
-    state: "form",
-  },
-  {
     display: "search",
     path: "/search",
     icon: <SearchOutlinedIcon />,
@@ -44,6 +38,12 @@ const main = [
     path: "/aboutus",
     icon: <GroupsIcon />,
     state: "aboutus",
+  },
+  {
+    display: "contact Us",
+    path: "/contactUs",
+    icon: <ContactsIcon />,
+    state: "contactUs",
   },
 ];
 

@@ -38,9 +38,9 @@ const routes = [
     state: "person.detail"
   },
   {
-    path: "/form",
+    path: "/contactUs",
     element: <Form />,
-    state: "form"
+    state: "contactUs"
   },
   {
     path: "/search",

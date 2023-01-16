@@ -1,7 +1,6 @@
 import { Grid, Toolbar } from "@mui/material";
 import { Box } from "@mui/system";
 import ProfileCard from "../components/common/ProfileCard";
-import uiConfigs from "../configs/ui.configs";
 import profileCOnfigs from "../configs/profile.config";
 const AboutUsPage = () => {
   return (
